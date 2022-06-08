@@ -1,6 +1,6 @@
 {
     "name": "@hyperion-tech/stylelint-config",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "scripts": {
         "lint:css": "stylelint **/*.{scss,css}",
         "fix:css": "stylelint **/*.{scss,css} --fix"
