@@ -12,6 +12,7 @@
         "directory": "packages/stylelint-config-hyperion"
     },
     "publishConfig": {
+        "access": "public",
         "@dmitrykovaltsov:registry": "https://npm.pkg.github.com/dmitrykovaltsov"
     },
     "peerDependencies": {
