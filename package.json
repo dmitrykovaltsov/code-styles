@@ -1,8 +1,6 @@
 {
   "name": "code-styles",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dmitrykovaltsov/code-styles.git"
