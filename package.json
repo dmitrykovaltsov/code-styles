@@ -1,0 +1,17 @@
+{
+  "name": "code-styles",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitrykovaltsov/code-styles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dmitrykovaltsov/code-styles/issues"
+  },
+  "homepage": "https://github.com/dmitrykovaltsov/code-styles",
+  "dependencies": {
+    "lerna": "^5.1.0"
+  }
+}
