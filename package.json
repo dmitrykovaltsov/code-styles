@@ -1,6 +1,9 @@
 {
   "name": "code-styles",
   "private": true,
+  "publishConfig": {
+    "@dmitrykovaltsov:registry": "https://npm.pkg.github.com/dmitrykovaltsov"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dmitrykovaltsov/code-styles.git"
