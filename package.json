@@ -3,6 +3,9 @@
   "scripts": {
     "publish": "lerna publish"
   },
+  "publishConfig": {
+		"access": "public"
+	},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dmitrykovaltsov/code-styles.git"
