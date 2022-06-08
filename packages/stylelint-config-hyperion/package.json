@@ -1,6 +1,6 @@
 {
     "name": "@dmitrykovaltsov/stylelint-config",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "scripts": {
         "lint:css": "stylelint **/*.{scss,css}",
         "fix:css": "stylelint **/*.{scss,css} --fix"
