@@ -1,8 +1,27 @@
 {
-  "name": "code-styles",
+  "name": "@dmitrykovaltsov/code-styles",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "publish": "lerna publish"
+    "lerna:bootstrap:ci": "lerna bootstrap -- --frozen-lockfile --ignore-engines",
+    "lerna:bootstrap": "lerna bootstrap",
+    "lerna:publish": "lerna publish from-package",
+    "lerna:version": "lerna version"
   },
+  "engines": {
+    "node": ">= 12",
+    "npm": ">= 6"
+  },
+  "keywords": [
+    "lint",
+    "linter",
+    "eslint",
+    "stylelint",
+    "prettier",
+    "config"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dmitrykovaltsov/code-styles.git"
@@ -11,7 +30,7 @@
     "url": "https://github.com/dmitrykovaltsov/code-styles/issues"
   },
   "homepage": "https://github.com/dmitrykovaltsov/code-styles",
-  "dependencies": {
-    "lerna": "^5.1.0"
+  "devDependencies": {
+    "lerna": "^5.1.4"
   }
 }

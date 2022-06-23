@@ -1,11 +1,15 @@
 {
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
+  "useWorkspaces": true,
   "version": "independent",
   "command": {
     "publish": {
-      "registry": "https://npm.pkg.github.com/dmitrykovaltsov"
+      "registry": "https://npm.pkg.github.com/"
+    },
+    "version": {
+      "allowBranch": "main",
+      "ignoreChanges": ["**/CHANGELOG.md", "**/node_modules/**", "**/*.md"],
+      "yes": true
     }
   }
 }
