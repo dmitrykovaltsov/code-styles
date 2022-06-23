@@ -1,6 +1,6 @@
 {
   "name": "@dmitrykovaltsov/stylelint-config-hyperion",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Stylelint base configuration and rules for CSS/SCSS",
   "license": "MIT",
   "repository": {
