@@ -8,7 +8,8 @@
     "lerna:bootstrap:ci": "lerna bootstrap -- --frozen-lockfile --ignore-engines",
     "lerna:bootstrap": "lerna bootstrap",
     "lerna:publish": "lerna publish from-package",
-    "lerna:version": "lerna version"
+    "lerna:version": "lerna version",
+    "lint": "eslint --fix **/*.js"
   },
   "engines": {
     "node": ">= 12",
@@ -31,6 +32,13 @@
   },
   "homepage": "https://github.com/dmitrykovaltsov/code-styles",
   "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
     "lerna": "^5.1.4"
   }
 }
