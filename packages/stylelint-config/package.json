@@ -6,7 +6,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dmitrykovaltsov/code-styles.git",
-    "directory": "packages/stylelint-config-hyperion"
+    "directory": "packages/stylelint-config"
   },
   "engines": {
     "node": ">= 12",
@@ -14,7 +14,7 @@
   },
   "main": "index.js",
   "peerDependencies": {
-    "stylelint": "^14.9"
+    "stylelint": ">= 14"
   },
   "dependencies": {
     "postcss-scss": "^4.0.4",
@@ -31,6 +31,8 @@
   ],
   "keywords": [
     "stylelint",
-    "stylelint-config"
+    "stylelint-config",
+    "code-quality",
+    "code-style"
   ]
 }

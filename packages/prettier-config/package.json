@@ -1,0 +1,31 @@
+{
+    "name": "@dmitrykovaltsov/prettier-config",
+    "version": "0.0.1",
+    "description": "Prettier configuration and rules",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dmitrykovaltsov/code-styles.git",
+      "directory": "packages/prettier-config"
+    },
+    "engines": {
+      "node": ">= 12",
+      "npm": ">= 6"
+    },
+    "main": "index.js",
+    "peerDependencies": {
+      "prettier": ">= 2"
+    },
+    "publishConfig": {
+      "access": "public"
+    },
+    "files": [
+      "index.js"
+    ],
+    "keywords": [
+      "prettier",
+      "prettier-config",
+      "code-quality",
+      "code-style"
+    ]
+  }

@@ -1,0 +1,39 @@
+{
+  "name": "@dmitrykovaltsov/eslint-config",
+  "version": "0.0.1",
+  "description": "ESlint base configuration and rules for javascript",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitrykovaltsov/code-styles.git",
+    "directory": "packages/eslint-config"
+  },
+  "engines": {
+    "node": ">= 12",
+    "npm": ">= 6"
+  },
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">= 8"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "code-quality",
+    "code-style"
+  ]
+}
